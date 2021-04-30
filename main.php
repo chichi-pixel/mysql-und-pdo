@@ -13,9 +13,3 @@ try {
     echo $ex->getMessage();
 }
 ?>
-
-//..ERROR -> Notice: Undefined variable: db in C:\APACHEFORXAMMP\htdocs\pdokurs\functions.php on line 9
-
-//Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\APACHEFORXAMMP\htdocs\pdokurs\functions.php:9 Stack trace:
- //#0 {main} thrown in C:\APACHEFORXAMMP\htdocs\pdokurs\functions.php on line 9
-

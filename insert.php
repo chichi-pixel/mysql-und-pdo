@@ -1,6 +1,5 @@
 <?php
-
-require_once 'functions.php';
+require_once 'main.php';
 
 $baslik = "This is a title!";
 $explanation = "This is an explanation!";
@@ -14,5 +13,5 @@ if($insert->execute()){
 }else {
     echo "Not successfull!";
 }
-
 ?>
+
